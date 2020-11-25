@@ -5,7 +5,7 @@ public class Main {
         long payment = 1100;
         long bonus = 0;
 
-        if (payment >= 1000) {
+        if (payment > 1000) {
             bonus = payment / everyRuble;
             balance = balance + payment + bonus;
         } else {
